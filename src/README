@@ -1,0 +1,10 @@
+This is from yun@psyche/bench/codes/chain2/src
+use find_a_b.m to generate jobs list
+./ main 1 2 3 4 5 6
+./ main 7 8 9 0 1 2
+...
+this list is used by runjob.py at shemesh to run main with different arguments
+on different nodes.
+
+the result is rlt.log, use read_rlt.py to process rlt.log. the result is
+ rlt.dat, which can be plot
